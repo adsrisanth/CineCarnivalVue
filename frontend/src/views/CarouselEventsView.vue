@@ -29,10 +29,15 @@ const options = {
     1350: { perPage: 3 },
     1700: { perPage: 4 },
     2000: { perPage: 5 },
+    2500: { perPage: 5 },
+    3500: { perPage: 6 },
+    4500: { perPage: 7 },
+    5500: { perPage: 8 },
+    6500: { perPage: 9 },
+    7500: { perPage: 10 },
+
   },
 };
-
-
 const router = useRouter()
 
 </script>

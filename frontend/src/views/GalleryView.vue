@@ -24,7 +24,7 @@ const options = {
   autoplay: 3000,
   perPage: 3,
   perMove: 1,
-  gap: '1rem',
+  gap: '2rem',
   type: 'loop',
   rewindSpeed: 3000,
   autoplayDelay: 30000,
@@ -37,22 +37,20 @@ const options = {
     pauseOnFocus: false,
   },
   interval: 1000,
-  breakpoints: {
-      725:{
-        perPage:1,
-      },
-      1056: {
-        perPage: 2,
-      },
-      1350: {
-        perPage: 3,
-      },
-      1700: {
-        perPage: 4,
-      },
-      2000: {
-        perPage: 5,
-      },
+    breakpoints: {
+    725: { perPage: 1 },
+    1056: { perPage: 2 },
+    1350: { perPage: 3 },
+    1700: { perPage: 4 },
+    1800: { perPage: 4 },
+    2000: { perPage: 5 },
+    2500: { perPage: 5 },
+    3500: { perPage: 6 },
+    4500: { perPage: 7 },
+    5500: { perPage: 8 },
+    6500: { perPage: 9 },
+    7500: { perPage: 10 },
+
   },
 };
 
@@ -67,9 +65,9 @@ const options = {
     <div class="flex justify-center items-center">
       <Splide :options="options" class="flex justify-center">
         <SplideSlide v-for="(image ,index) in data" :key="index"
-          class="flex rounded-3xl overflow-hidden justify-center max-vsm:w-full w-[465px] h-[260px] bg-[#000]">
+          class="flex overflow-hidden justify-center max-vsm:w-full w-[465px] h-[260px] bg-[#000]">
           <img :src="image" :alt="'Gallery image - ' + (index+1)"
-            class="flex justify-center active:cursor-grabbing cursor-grab"
+            class="flex justify-center active:cursor-grabbing cursor-grab rounded-3xl"
           >
         </SplideSlide>
       </Splide>
