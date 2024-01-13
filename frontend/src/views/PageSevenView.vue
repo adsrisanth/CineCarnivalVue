@@ -25,7 +25,7 @@ import PartnersView from './PartnersView.vue';
         <GalleryView />
       </div>
       <div class="home-child"  id="partners-view">
-        <PartnersView ref="homeChild" />
+        <!-- <PartnersView ref="homeChild" /> -->
       </div>
       <AccordationView />
     </div>

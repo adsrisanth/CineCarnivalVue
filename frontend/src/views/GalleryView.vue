@@ -1,20 +1,17 @@
 <script setup>
 const data = [
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg',
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg',
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg',
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg',
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg',
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg',
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg',
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg',
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg',
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg',
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg',
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg',
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg',
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg',
-  'https://m.media-amazon.com/images/S/pv-target-images/314c028e3fc572db40f6c79a9e21980e45700b205dcedbcbffd76c38f6c5bdae.jpg'
+  'https://i.postimg.cc/N50H4hZ1/Screenshot-2023-10-10-100108.png',
+  'https://i.postimg.cc/Jmg6chBm/Screenshot-2023-10-10-100108.png',
+  'https://i.postimg.cc/VYD4Sscx/Screenshot-2023-10-10-100202.png',
+  'https://i.postimg.cc/7Hh9SvHf/Screenshot-2023-10-10-100228.png',
+  'https://i.postimg.cc/nHH0cjNK/Screenshot-2023-10-10-100303.png',
+  'https://i.postimg.cc/MxctT83L/Screenshot-2023-10-10-100318.png',
+  'https://i.postimg.cc/gm8DVHWq/Screenshot-2023-10-10-100645.png',
+  'https://i.postimg.cc/hgHsQ3Ht/Screenshot-2023-10-10-100610.png',
+  'https://i.postimg.cc/y7CLtrPb/Screenshot-2023-10-10-100506.png',
+  'https://i.postimg.cc/zqwxrS2X/Screenshot-2023-10-10-100437.png',
+  'https://i.postimg.cc/1mdHHWXM/Screenshot-2023-10-10-100410.png',
+  'https://i.postimg.cc/1S7JszB6/Screenshot-2023-10-10-100346.png',
 ]
 
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
@@ -25,7 +22,7 @@ const options = {
   perPage: 3,
   perMove: 1,
   gap: '2rem',
-  type: 'loop',
+  type: 'slide',
   rewindSpeed: 3000,
   autoplayDelay: 30000,
   arrows: false,
