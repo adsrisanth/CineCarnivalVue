@@ -87,5 +87,27 @@ export const EventsData = [
     contact: 'Contact details for Event 4',
     date: '23rd & 24th February "2K24.',
     register: 'https://forms.gle/NMsZpuVediCyFyxw8'
+  },
+  {
+    index: 4,
+    title: 'Scavenger Hunt',
+    poster: 'https://i.postimg.cc/665htDS9/scavenger-hunt.png',
+    image:
+      'https://i.postimg.cc/L9VTdHxC/scavenger-hunt-vertical.png',
+    description: 'Description for Event 4',
+    category: 'LCH - Liberal, Creative and Hobby ',
+    duration: '2 hours',
+    type: 'Contest',
+    club_name: 'Photography & Film Technology',
+    guidelines: [
+      'Event guideline 1',
+      'Event guideline 2',
+      'Event guideline 3',
+      'Event guideline 4'
+    ],
+    team_size: 100,
+    contact: 'Contact details for Event 4',
+    date: '23rd & 24th February "2K24.',
+    register: 'https://forms.gle/NMsZpuVediCyFyxw8'
   }
 ]

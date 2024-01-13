@@ -26,7 +26,7 @@
         <span class="text-black text-[25px] pb-2 font-montserrat tracking-wider font-extrabold">Contact</span>
         <span class="pb-2 pt-2 font-montserrat font-semibold opacity-85 ">+91 94924 85741</span>
         <span class="pb-2 font-montserrat font-semibold opacity-85 ">+91 63094 66281</span>
-        <span class="pb-2 font-montserrat font-semibold opacity-85 tracking-wide text-[16px]">amishchinnu94@gmail.com</span>
+        <span class="pb-2 font-montserrat font-semibold opacity-85 tracking-wide text-[16px]">klsacphotography@gmail.com</span>
       </div>
       
     </div>

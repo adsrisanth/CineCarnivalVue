@@ -1,6 +1,5 @@
 <script setup>
 const data = [
-  'https://i.postimg.cc/N50H4hZ1/Screenshot-2023-10-10-100108.png',
   'https://i.postimg.cc/Jmg6chBm/Screenshot-2023-10-10-100108.png',
   'https://i.postimg.cc/VYD4Sscx/Screenshot-2023-10-10-100202.png',
   'https://i.postimg.cc/7Hh9SvHf/Screenshot-2023-10-10-100228.png',
@@ -22,7 +21,7 @@ const options = {
   perPage: 3,
   perMove: 1,
   gap: '2rem',
-  type: 'loop',
+  type: 'slide',
   rewindSpeed: 3000,
   autoplayDelay: 30000,
   arrows: false,
