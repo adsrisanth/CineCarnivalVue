@@ -109,5 +109,5 @@ export const EventsData = [
     contact: 'Contact details for Event 4',
     date: '23rd & 24th February "2K24.',
     register: 'https://forms.gle/NMsZpuVediCyFyxw8'
-  }
+  },
 ]

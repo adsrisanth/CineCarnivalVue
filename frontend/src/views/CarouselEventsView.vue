@@ -7,23 +7,17 @@ import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 
 const options = {
   rewind: true,
-  autoplay: 3000,
   perPage: 3,
   perMove: 1,
-  gap: '1rem',
+  gap: '2rem',
   type: 'slide',
   rewindSpeed: 3000,
   rewind: false,
   autoplayDelay: 300,
-  arrows: false,
+  arrows: true,
   pagination: false,
-  extensions: { AutoScroll },
   interval: 1000,
-  autoScroll: {
-    speed: 8000,
-    pauseOnHover: true,
-    pauseOnFocus: false,
-  },
+  padding: '2rem',
   breakpoints: {
     725: { perPage:  EventsData.length>1 ?1 : EventsData.length , autoplay: EventsData.length > 1 },
     1056: { perPage: EventsData.length>2 ?2 : EventsData.length , autoplay: EventsData.length > 2},
