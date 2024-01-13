@@ -21,7 +21,7 @@ const options = {
   perPage: 3,
   perMove: 1,
   gap: '2rem',
-  type: 'slide',
+  type: 'loop',
   rewindSpeed: 3000,
   autoplayDelay: 30000,
   arrows: false,
