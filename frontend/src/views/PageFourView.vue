@@ -25,10 +25,10 @@ const teams = [
                         name:'K Laasya',
                         image:'https://i.postimg.cc/kX14J747/laasya.png',
                     },
-                    {
-                        name:'V. Aishwarya',
-                        image:'https://i.postimg.cc/VL67rFYX/aishwariya.png',
-                    },
+                    // {
+                    //     name:'V. Aishwarya',
+                    //     image:'https://i.postimg.cc/VL67rFYX/aishwariya.png',
+                    // },
                     {
                         name:'Yashasvi',
                         image:'https://i.postimg.cc/cHRR2vdx/yashasvi.png',
@@ -49,11 +49,11 @@ const teams = [
                         image:'https://i.postimg.cc/SNDXnWZF/nandha.png',
                         designation:'DEG 1'
                     },
-                    {
-                        name:'E.Raghu',
-                        image:'https://i.postimg.cc/VL67rFYX/aishwariya.png',
-                        designation:'DEG 2'
-                    },
+                    // {
+                    //     name:'E.Raghu',
+                    //     image:'https://i.postimg.cc/VL67rFYX/aishwariya.png',
+                    //     designation:'DEG 2'
+                    // },
                     {
                         name:'Satyanarayana',
                         image:'https://i.postimg.cc/X7cfQGQQ/sathya.png',
@@ -109,15 +109,15 @@ const teams = [
                         image:'https://i.postimg.cc/LXnDW9nh/uday.png',
                         designation:'DEG 3'
                     },
-                    {
-                        name:'User 2',
-                        image:'https://i.postimg.cc/VL67rFYX/aishwariya.png',
-                        designation:'DEG 2'
-                    },
-                    {
-                        name:'User 2',image:'https://i.postimg.cc/VL67rFYX/aishwariya.png',
-                        designation:'DEG 2'
-                    }
+                    // {
+                    //     name:'User 2',
+                    //     image:'https://i.postimg.cc/VL67rFYX/aishwariya.png',
+                    //     designation:'DEG 2'
+                    // },
+                    // {
+                    //     name:'User 2',image:'https://i.postimg.cc/VL67rFYX/aishwariya.png',
+                    //     designation:'DEG 2'
+                    // }
                 ]
             },
         ]
