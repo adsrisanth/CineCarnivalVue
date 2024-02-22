@@ -14,7 +14,7 @@ const options = {
   rewindSpeed: 3000,
   rewind: false,
   autoplayDelay: 300,
-  arrows: true,
+  arrows: false,
   pagination: false,
   interval: 1000,
   padding: '2rem',

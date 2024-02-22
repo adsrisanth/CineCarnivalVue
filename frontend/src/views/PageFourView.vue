@@ -13,7 +13,7 @@ const teams = [
                 members:[
                     {
                         name:'M Amish Kumar',
-                        image:'https://i.postimg.cc/0QWGGLnx/amish.png',
+                        image:'https://i.postimg.cc/TRdX68bD/ID-CARD-BACK.png',
                     }
                     
                 ]
@@ -25,10 +25,6 @@ const teams = [
                         name:'K Laasya',
                         image:'https://i.postimg.cc/kX14J747/laasya.png',
                     },
-                    // {
-                    //     name:'V. Aishwarya',
-                    //     image:'https://i.postimg.cc/VL67rFYX/aishwariya.png',
-                    // },
                     {
                         name:'Yashasvi',
                         image:'https://i.postimg.cc/cHRR2vdx/yashasvi.png',
@@ -49,11 +45,6 @@ const teams = [
                         image:'https://i.postimg.cc/SNDXnWZF/nandha.png',
                         designation:'DEG 1'
                     },
-                    // {
-                    //     name:'E.Raghu',
-                    //     image:'https://i.postimg.cc/VL67rFYX/aishwariya.png',
-                    //     designation:'DEG 2'
-                    // },
                     {
                         name:'Satyanarayana',
                         image:'https://i.postimg.cc/X7cfQGQQ/sathya.png',
@@ -73,21 +64,6 @@ const teams = [
                         name:'Praveen',
                         image:'https://i.postimg.cc/RFK6hyYX/praveen.png',
                         designation:'DEG 3'
-                    },
-                    {
-                        name:'Surya',
-                        image:'https://i.postimg.cc/Wz0GRhjp/surya.png',
-                        designation:'DEG 3'
-                    },
-                    {
-                        name:'Rupesh',
-                        image:'https://i.postimg.cc/Yq3F1cCP/rupesh.png',
-                        designation:'DEG 3'
-                    },
-                    {
-                        name:'Basha',
-                        image:'https://i.postimg.cc/fb352W3y/basha.png',
-                        designation:'DEG 1'
                     },
                     {
                         name:'Dheeraj',

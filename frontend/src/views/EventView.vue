@@ -24,7 +24,7 @@ onMounted(()=>{
     eventIndex.value = routes.params.index
     eventTitle.value = routes.params.title
     eventData.value = EventsData[eventIndex.value]
-    document.title = `${eventTitle.value} -Cine Carnival`
+    document.title = `${eventTitle.value} - Cine Carnival`
 })
 
 </script>
@@ -32,10 +32,8 @@ onMounted(()=>{
 <template>
     <div class="min-h-[100vh] event-container bg-[rgb(0,0,0)] flex flex-col ssm:pb-12">
         <div class="flex flex-col justify-center">
-            <div class="poster flex justify-start">
-                <img :src="eventData.poster" :alt="eventData.title" class="w-[100%] min-h-[400px] max-md:min-h-[300px] max-sm:min-h-[280px] max-vsm:min-h-[200px] object-fill" />
-            </div>
             <div class="poster-data flex flex-col h-full sm:gap-32 gap-12 place-items-start flex-wrap max-sm:flex-col justify-between sm:px-12 sm:pl-[125px] px-8 sm:py-10 py-8">
+              <img :src="eventData.image" :alt="eventData.title" class="w-[30%] min-h-[40px] max-xl:min-h-[600px] max-md:min-h-[300px] max-sm:min-h-[400px] max-vsm:min-h-[200px] max-xl:min-w-[600px] max-md:min-w-[400px] max-sm:min-w-[380px] max-vsm:min-w-[200px]" />
                 <button @click="router.back()" :to="{ name: 'home', params: { to: 'group' } }" class="arrow-icon-prev z-50 absolute float-right right-10 -mt-4 duration-500 max-md:right-5">
                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-gray-300 hover:text-gray-100 w-10 h-10 xl:w-12 xl:h-12">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -44,9 +42,8 @@ onMounted(()=>{
                         </g>
                     </svg>
                 </button>
-
-                <div class="flex flex-col flex-left tracking-wider">
-                    <div class="flex flex-col gap-10">
+                <div class="flex tracking-wider">
+                    <div class="flex flex-col gap-10 ">
                         <div class="flex flex-col">
                             <span class="font-semibold font-robotoslab text-[30px] opacity-90" style="filter: drop-shadow(0 0 15px rgb(255, 255, 255))">{{ eventData.club_name }} </span>
                             <span class="font-bold font-merriweather md:text-[52px] sm:text-[47px] max-ssm:text-[42px] text-[35px]" style="filter: drop-shadow(0 0 23px rgb(255, 255, 255))">{{ eventData.title }}</span>
